@@ -53,6 +53,9 @@ class CyclicString(object):
         for offset in range(0, length):
             result += self.valueAt(index + offset)
         return result
+    
+    def containsWildcard(self):
+        return self.alphabet.wildcard in self.values
 
 # Rotation ------------------------------------------------------------------ #
  
