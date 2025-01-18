@@ -20,14 +20,16 @@
 """
 Author: Stefan Popescu
 
-The code in this module deals with universal partial matrices (upmatrices), which are delineated in
-section 2 of the paper. Many examples of upmatrices are included in the appendix.
+The code in this module deals with universal partial matrices (upmatrices). 
+Upmatrices are defined in Section 2, and computational search results for 
+upmatrices are shown in Section 3.
 
-To execute the code, run `python3 array-finder.py <length> <width> <alphabet-size>` to search an
-entire solution space. For example, `python3 array-finder 5 3 2` will iterate over all of the
-possible 5-by-3 matrices for the binary alphabet and create a file called `output.txt` with all of
-the upmatrices found. In the paper, the only upmatrices found have 2-by-2 submatrices and are over
-the binary alphabet.
+To execute the code, run `python3 array-finder.py <length> <width> <alphabet-size>` 
+to search an entire solution space. For example, `python3 array-finder 5 3 2` 
+will iterate over all of the possible 5-by-3 matrices for the binary alphabet and 
+create a file called `output.txt` with all of the upmatrices found. In the paper, 
+the only upmatrices found computationall have 2-by-2 submatrices and are over the 
+binary alphabet.
 """
 import sys
 
