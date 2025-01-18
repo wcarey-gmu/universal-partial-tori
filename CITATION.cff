@@ -1,0 +1,45 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Universal Partial Tori
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: William
+    name-particle: D
+    family-names: Carey
+    email: wcarey1@gmu.edu
+    affiliation: George Mason University
+  - given-names: Matthew
+    family-names: Kearney
+    email: mkearne@gmu.edu
+    affiliation: George Mason University
+  - given-names: Rachel
+    family-names: Kirsch
+    email: rkirsch4@gmu.edu
+    affiliation: George Mason University
+  - given-names: Stefan
+    family-names: Popescu
+    email: spopesc@gmu.edu
+    affiliation: George Mason University
+identifiers:
+  - type: url
+    value: 'https://arxiv.org/abs/2409.12417'
+    description: ArXiv URL of the paper that prompted this development
+abstract: >-
+  A De Bruijn cycle is a cyclic sequence in which every word
+  of length $n$ over an alphabet $\A$ appears exactly once.
+  De Bruijn tori are a two-dimensional analogue. Motivated
+  by recent progress on universal partial cycles and words,
+  which shorten De Bruijn cycles using a wildcard character,
+  we introduce universal partial tori and matrices. We find
+  them computationally and construct infinitely many of them
+  using one-dimensional variants of universal cycles,
+  including a new variant called a universal partial family.
+keywords:
+  - universal partial torus
+  - universal word
+license: MIT
