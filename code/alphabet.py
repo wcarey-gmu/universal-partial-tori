@@ -37,7 +37,7 @@ class Alphabet(object):
     
     def wordsOfLength(self, wordLength):
         """Returns a dict of strings representing all words of length 
-           @wordLength that can be formed in the alphabet. Return n^a words, 
+           @wordLength that can be formed in the alphabet. Return a^n words, 
            where n is the number of symbols in the alphabet and a is the 
            length of each word.
         """
