@@ -37,7 +37,7 @@ class CyclicFamily(object):
         self.values.append(c)
     
     def isDeBruijnFamily(self, subwordLength):
-        """Returns true if @candidate is an de Bruijn family (i.e. a 
+        """Returns true if @candidate is a de Bruijn family (i.e. a 
            collection of strings that cover all subwords of length 
            @subwordLength exactly once in one member).
         """
