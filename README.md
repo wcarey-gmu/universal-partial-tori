@@ -4,7 +4,7 @@ Code and data supporting the paper [Universal Partial Tori](https://arxiv.org/ab
 
 ## Data
 
-This folder contains examples of upmatrices and uptori identified or constructed by the code in this repository. Each file contains a collection of objects for a particular combination of alphabet and subarray dimensions and is named accordingly. The general scheme for the name of the files is _object-alphabet-rows-columns.txt_. For example, _upmatrix-2-3-4.txt_ would contain a single upmatrix for the binary alphabet whose subarrays have three rows and four columns.
+This folder contains examples of upmatrices and uptori identified or constructed by the code in this repository. Each file contains a collection of objects for a particular combination of alphabet and subarray dimensions and is named accordingly. The general scheme for the name of the files is _object[s]-alphabet-rows-columns.txt_. For example, _upmatrix-2-3-4.txt_ would contain a single upmatrix for the binary alphabet whose subarrays have three rows and four columns. Likewise, _upmatrices-2-2-2.txt_ would contain more than one upmatrix for the binary alphabet whose subarrays have two rows and two columns. Note that the objects in a particular file may have different dimensions (e.g. _upmatrices-2-2-2.txt_ contains some upmatrices with 3 rows and 5 columns and some upmatrices with 4 rows and 4 columns).
 
 Within the files, each individual obejct is formatted with a newline after each row and two newlines between objects. The _w_ character represents the "wildcard", which we usually represent as $\diam$ in our paper.
 
